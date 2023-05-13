@@ -1,11 +1,5 @@
 <?php
 require('head.php');
-require('header.php');
+get_header();
 require('main.php');
-require('functions.php');
-require('footer.php');
-require('scripts.php');
-?>
-
-</body>
-</html>
+get_footer();
