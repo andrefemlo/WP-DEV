@@ -4,10 +4,10 @@
 function wpdevs_load_scripts(){
     wp_enqueue_style( 
         'wpdevs-style',
-        get_stylesheet_uri(),
-        array(''),
+        get_template_directory_uri() . '/css/global.css',
+        array(),
         filemtime(
-            get_template_directory(). '/css/global.css'
+            get_template_directory() . '/css/global.css'
         ),
         'all'
     );
